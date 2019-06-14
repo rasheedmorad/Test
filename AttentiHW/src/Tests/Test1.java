@@ -28,7 +28,7 @@ public class Test1 {
     public void converts_Meters() {
         Assert.assertTrue(openSiteByChromDriver(MetricSite));
         String res = convert_From_To("Meters", "Feet", "100");
-        Assert.assertEquals("Expected the result to be : " + res, "" + res.trim(), "328ft 1.007880in");
+        Assert.assertEquals("Expected the result to be: " + res, "" + res.trim(), "328ft 1.007880in");
 
     }
 
