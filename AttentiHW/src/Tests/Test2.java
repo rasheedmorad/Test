@@ -18,7 +18,6 @@ public class Test2 extends Test1 {
         StringBuilder result = new StringBuilder();
         try {
 
-
             URL myurl = new URL("https://jsonplaceholder.typicode.com/posts/1");
             HttpURLConnection conection = (HttpURLConnection) myurl.openConnection();
             conection.setConnectTimeout(99999999);
